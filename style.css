@@ -1,0 +1,100 @@
+
+* {
+    transition: all 0.2s ease-in-out;
+  }
+  
+  body {
+    background: #e35bb6; 
+  background: -webkit-linear-gradient(to right, #a834a8, #542a83); 
+  background: linear-gradient(to right, #2b778a, #8b46a7); 
+    display: grid;
+    place-items: center;
+    height: 200vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .card {
+    background: #36021a;
+    border-radius: 30px;
+    height: 150vh;
+    width: 90vw;
+    box-shadow: 0 3px 6px rgba(88, 10, 10, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    overflow: hidden;
+    color:#DCE35B;
+  }
+  .ng{
+    
+    width: 100%;
+    height: 200px;
+  }
+  footer{
+    text-align: center;
+    color: #fff;
+    background-color: #1c4e6b;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    border-radius: 30px;
+    
+  }
+  h2{
+    color: #c26f6f;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  @media only screen and (min-width: 1000px) {
+    .card {
+      flex-direction: row-reverse;
+    }
+    .card img.birthday {
+      width: 100%;
+      max-width: 50vw;
+      max-height: unset;
+      border-radius: 30px;
+      
+    }
+  }
+  
+  @media only screen and (max-height: 640px) {
+    .card {
+      flex-direction: row-reverse;
+    }
+    .card img.birthday {
+      width: 100%;
+      max-width: 50vw;
+      max-height: unset;
+    }
+  }
+  
+  img.birthday {
+    max-height: 40vh;    
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  
+  .text {
+    padding: 3em;
+  }
+  .text h1{
+    font-family:cursive;
+    font-size: 40px;
+  }
+  .space {
+    height: 100px;
+  }
+  
+  .credit a{
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .credit {
+      margin-top: 10px;
+      text-align: center;
+  }
+  
+  
